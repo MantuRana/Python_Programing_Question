@@ -1,13 +1,3 @@
 # sum of all even numbers and odd numbers
+![image](https://github.com/user-attachments/assets/9e725a64-584f-47d1-a7a9-83e1e986afde)
 
-lst=[1,2,3,4,5,6,7,8,9,10,12,13,14,15]
-
-even_sum=0
-odd_sum=0
-for i in lst:
-    if i%2==0:
-        even_sum=even_sum+i
-    else:
-        odd_sum=odd_sum+i
-print(even_sum,odd_sum)
-        
